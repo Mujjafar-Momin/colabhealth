@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "414983122875",
+    "project_id": "colab-health",
+    "storage_bucket": "colab-health.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414983122875:android:01e7ee8b8c1366019c9e9e",
+        "android_client_info": {
+          "package_name": "com.colab.colabhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414983122875-7f1k5evtv9tku7cbkgspk8nvdc1tuu9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.colab.colabhealth",
+            "certificate_hash": "57a7f6fba14abd014d24b5f352695ea771bec036"
+          }
+        },
+        {
+          "client_id": "414983122875-albcuegq76oa7bhurvkq87ukelu62ung.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLYOE6JW5vOe165WNp9gO7fwf2GC2CLFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414983122875-albcuegq76oa7bhurvkq87ukelu62ung.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+name: colabhealth
+description: "ColabHealth — a health & fitness tracker (steps, calories, sleep)."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.9
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management / DI / routing
+  get: ^4.7.2
+  get_storage: ^2.1.1
+
+  # Networking
+  dio: ^5.7.0
+
+  # Firebase
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.1
+  firebase_messaging: ^15.1.5
+  google_sign_in: ^6.2.2
+
+  # Health platform integrations
+  pedometer: ^4.0.2
+  health: ^12.1.0
+  permission_handler: ^11.3.1
+
+  # Alarm + notifications
+  android_alarm_manager_plus: ^4.0.4
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+
+  # Charts & UI
+  fl_chart: ^0.69.2
+  lucide_icons_flutter: ^3.1.9
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+
+  # Utils
+  flutter_dotenv: ^5.1.0
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  connectivity_plus: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/avatars/
+    - assets/icons/
+    - .env
